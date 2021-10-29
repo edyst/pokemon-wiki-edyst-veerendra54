@@ -1,0 +1,805 @@
+/* CSS for all */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* CSS for Navigation Bar */
+
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+}
+.links{
+    width: 70%;
+}
+.nav_ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.dropdown-list{
+    visibility: hidden;
+    position: absolute;
+    padding-left: 5px;
+
+
+}
+.dropdown:hover .dropdown-list{
+    visibility: visible;
+    background-color: #4992ca;
+    color: #fff;
+}
+span.select{
+    appearance : none;
+}
+i.nav_i{
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    appearance: none;
+    padding-right:15px;
+    text-decoration: none;
+}
+.nav_a{
+    display: flex;
+    text-decoration: none;
+    color:rgb(24, 22, 22);
+}
+img.india{
+    height: 20px;
+    padding-right: 20px;
+}
+img.nav_logo{
+    height: 35px;
+    margin-left: 10px;}
+a.nav{
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+}
+button.apply{
+    width: 130px;
+    margin-right: 10px;
+    background-color: rgb(241, 89, 62) ;
+    border-style: none;
+    color: white;
+}
+main{
+    margin-right: 20px;
+}
+
+/* CSS for container1 */
+
+
+
+.container1{
+    background-image: url("homepage_bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+}
+
+.card_1{
+    height: 110vh;
+    background-color: #000000b3;
+    
+}
+.hp_align{
+    padding-top: 6%;
+    padding-left: 10%;
+}
+h1.home{
+    font-size: 90px;
+}
+h3.home{
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.home{
+    color: white;
+    margin-bottom: 10px;
+}
+.h_apply{
+    background-color:  #4992ca;
+    border: none;
+}
+.h_register{
+    background-color: #0000;
+    border-color: white;
+}
+.home_learn{
+    border-radius: 15px;
+    border-style: none;
+    height: 50px;
+    padding-top:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+}
+.size{
+    width: 220px;
+    height: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* CSS for container_2 */
+
+
+.container2{
+    background-color: #4992ca;
+    color: white;
+}
+.card_2{
+    padding: 4% 10% 6% 10%; 
+}
+.pm{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.col{
+    margin-right: 20px;
+}
+h2.pm{
+    font-size: 45px;
+
+}
+h4.pm{
+    font-size: 33px;
+}
+h6.pm{
+    line-height: 25px;
+
+    
+}
+p.pm{
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.flex_2{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin-top:20px ;
+}
+i.pm{
+    font-size: 40px;
+}
+
+/* CSS for Container_3 */
+
+
+.card_3{
+    padding: 4% 10% 6% 10%; 
+}
+.flex_3{
+    display: flex;
+}
+.ss{
+    text-align: center;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+h2.ss{
+    font-size: 45px;
+}
+h4.ss{
+    font-size: 30px;
+}
+img.ss{
+    display: block;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+}
+h4.year{
+    font-size: 30px;
+
+}
+h6.year{
+    font-size: 18px;
+    font-weight: 100;
+}
+.align_left{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* CSS for container_4 */
+
+
+ .card_4{
+     padding:  0% 10% 6% 10%; 
+ }
+ .flex_4{
+     display: flex;
+ }
+.pm_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 20px;
+    display: block;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.img_b{
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+.pm_logo{
+    width: 200px;
+    margin-right: 20px;
+    padding: 10px;
+}
+h2.year{
+    font-size: 45px;
+    color: #000;
+    margin: 30px 0px;
+}
+h4.year{
+    font-size: 30px;
+    font-weight: 100;
+}
+h6.year{
+    font-size: 18px;
+    font-weight: 100;
+}
+.year{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #8a8a8a;
+}
+.align_left{
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* CSS for Containerr_5 */   
+
+
+.container5{
+    background-color: #4992ca ;
+    color: #fff;
+}
+.card_5{
+    padding: 2% 10% 5% 10%;
+
+}
+
+h2.qa{
+    font-size: 45px;
+    margin: 30px;
+    text-align: center;
+    
+}
+ol.qa{
+    list-style-type: none;
+}
+ul.qa{
+    padding-left: 12%; 
+ 
+}
+.qa{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+/* CSS for Container_6 */
+
+.card_6{
+    padding: 5% 15%;
+}
+.flex_6{
+    display: flex;
+}
+h2.pb{
+    font-size: 45px;
+    text-align: center;
+}
+h4.pb{
+    margin-top: 20px;
+    text-align: center;
+}
+.pb{
+    text-align: left;
+    padding: 10px;
+}
+h4.left_6{
+    text-align: left;
+    padding-top: 0px;
+
+}
+.fw{
+    font-weight: 100;
+}
+p.pb{
+     color: #8a8a8a;
+     line-height: 30px;
+}
+.col1_6{
+    flex: 1;
+    margin-right: 15px;
+}
+.col2_6{
+    flex: 2;
+    margin-top: 15px;
+}
+table,th,td{
+    border: 1px solid #8a8a8a;
+    border-collapse: collapse;
+    padding: 15px 10px;
+    border-width:thin;
+
+}
+td{
+    color:#8a8a8a;
+}
+p.book{
+    color: #4992ca;
+    font-weight: bolder;
+    text-align: center;
+}
+button.pb{
+    height: 50px;
+    width: 200px;
+    background-color: #4992ca;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CSS for Container_7 */
+
+.container7{
+    background-color: #424242;
+}
+.card_7{
+    padding: 5% 20% 5% 20%;
+
+}
+h1.wpm{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+button.wpm{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0000;
+    border:2px solid #fff;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+/* CSS for Container_8 */
+
+h2.pc{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+}
+h6.pc{
+    color: #000;
+
+}
+.p_pc{
+    padding: 30px 15px;
+}
+.pc_card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0% 40% 5% 40%;
+    border:1px solid #e6e4e4;
+    
+}
+.pc8_blue{
+    height: 15px;
+    background-color: #4992ca;
+
+}
+.pc{
+    text-align: center;
+    border-width: 1px thin black  ; 
+    padding: 10px;
+    color: #8a8a8a;
+
+}
+.pc8_light{
+    background-color: #f7f3f3;
+    border-bottom: 1px solid #e6e4e4;
+}
+img.pc{
+    display:block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CSS for container9 */
+
+.container9{
+    background-color:#4992ca; 
+    color: white;
+}
+.card_9{
+    padding: 2% 10% 3% 10%;
+}
+
+h2.pt{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.flex_pt{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.pt{
+    font-weight: 100;
+
+}
+h4.pt{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h6.pt{
+    font-size: 18px;
+    
+}
+img.pt{
+    width: 200px;
+    border-radius: 50%;
+}
+.logo_pt{
+    width: 200px;
+    padding-top: 10px;
+}
+.col_pt{
+    margin-right: 20px;
+}
+.center_pt{
+    text-align: center;
+
+}
+
+/* CSS for container10 */
+
+.card_10{
+    padding: 2% 10% 3% 10%;
+}
+
+
+h2.gc{
+    font-size: 45px;
+    text-align: center;
+    color: #8a8a8a;
+    padding-bottom: 10px;
+}
+h4.gc{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+div.flex_gc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+
+    
+}
+.gc_bg{
+    height: 12px;
+    background-color: #4992ca;
+}
+.gc_light{
+    border-bottom: 1px solid #e6e4e4;
+    background-color: #f7f3f3;
+
+}
+.light_div{
+    padding: 20px 15px;
+}
+.card_gc{
+    width: 400px;
+    margin-right: 10px;
+    border:1px solid #e6e4e4;;
+}
+p.gc{
+    margin: 20px 10px;
+    line-height: 25px;
+}
+
+/* CSS for Container_11   */
+
+
+.container11{
+    background-color: #424242 ;
+    color: white;
+}
+.flex_email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50px;
+}
+h2.email{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+button.email{
+    height: 50px;
+    width: 250px;
+    background-color: #0000;
+    color: white;
+    border: 2px solid #fff;
+    margin-left: 10px;
+
+
+}
+input.email{
+   
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    color:#8a8a8a;
+    border: none;
+    padding-left: 15px;
+}
+.card_11{
+    padding: 5% 0%;
+}
+
+/* CSS for section_12 */
+
+
+.card_12{
+    padding: 0% 10%;
+}
+.flex_12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.col12_1{
+    flex:1;
+    padding-right: 20px;
+}
+.col12_2{
+    flex:1;
+    padding-right: 20px;
+}
+.col12_3{
+    flex:1;
+    padding-right: 20px;
+}
+h2.pg_12{
+    font-size: 45px;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+h6.pg_12{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+p.pg_12{
+    text-align: center;
+    padding: 10px;
+
+}
+img.pg_12{
+    height: 200px;
+    display:block;
+    margin: auto auto auto auto;
+    padding: 10px;
+
+
+}
+img.img_align{
+    padding-top: 30px;
+}
+button.pg_12{
+    background-color:#4992ca;
+    color: white;
+    display: block;
+    height: 50px;
+    width: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.fa-gamepad{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+/* CSS for container_13 */
+
+
+.container13{
+    background-color: #4992ca;
+    color: white;
+}
+.card_13{
+    padding: 2% 10% 3% 10%;
+}
+.flex_13{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col_13{
+    flex: 1;
+}
+h2.d_13{
+    font-size: 45px;
+    text-align:center;
+    padding: 20px;
+}
+h4.d_13{
+    font-size: 33px;
+    font-weight: 100;
+    text-align: center;
+    padding: 5px;
+}
+p.d_13{
+    font-size: 18px;
+    padding: 10px;
+}
+.d_13_p{
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
+img.d_13{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+/* CSS for Container_14*/
+
+.card_14{
+    padding: 2% 10% ;
+}
+.flex_14{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_14{
+    padding: 10px;
+}
+
+h2.logo_14{
+    font-size: 45px;
+    color: #8a8a8a;
+    text-align: center;
+
+}
+p.logo_14{
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+}
+img.logo_14{
+    width: 200px;
+}
+
+/* CSS for container15 */
+
+.container15{
+    background-color: #4992ca;
+    color: #fff;
+}
+
+.card_15{
+    padding: 2% 10%;
+}
+h2.k_15{
+    font-size: 45px;
+    text-align: center;
+}
+button.k_15{
+    background-color: #0000;
+    font-weight: 100;
+    color:#fff;
+    border: 2px solid #fff;
+    width: 20%;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.k_15{
+    margin: 30px;
+}
+
+/* CSS for Footer */  
+
+
+footer{
+    background-color:rgb(24, 22, 22);
+    color:#424242;
+    margin-right: 20px;
+}
+.flex_f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 3% 10%;
+}
+a.foo{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.foo{
+    margin: 20px;
+    text-align: center;
+}
+.col_f{
+    display: flex;
+    flex-direction: column;
+}
+.icon_flex{
+    display: flex;
+}
+i.icon{
+    color: #fff;
+    padding: 15px;
+}
